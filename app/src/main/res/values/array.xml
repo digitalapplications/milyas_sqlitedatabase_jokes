@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Joke_Type" >
+        <item>family</item>
+        <item> friends </item>
+        <item> boyfriends </item>
+        <item> girlfriends </item>
+        <item> sardar </item>
+        <item> santa_banta </item>
+    </string-array>
+
+</resources>

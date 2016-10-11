@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.l400.taskno2.EnterNewJokes"
+    android:weightSum="1"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter New Jokes"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+
+        android:id="@+id/textView"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/joketitle"
+
+        android:background="@drawable/foredittext"
+        android:layout_gravity="center"
+        android:hint="joke title"
+        android:gravity="top"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="322dp"
+        android:layout_height="48dp"
+        android:inputType="textMultiLine"
+
+        android:background="@drawable/foredittext"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:id="@+id/jokedescription"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.26"
+        android:gravity="top"
+        android:hint="joke description" />
+
+    <Spinner
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_gravity="center"
+        android:background="@drawable/foredittext"
+        android:layout_marginTop="20dp"
+        android:entries="@array/Joke_Type"
+        android:prompt="@array/Joke_Type" />
+
+    <Button
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:text="Save Jokes"
+        android:id="@+id/insertdata"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@drawable/savejokes"
+        android:layout_marginEnd="30dp"
+        android:textAlignment="center"
+        android:layout_gravity="right" />
+
+
+</LinearLayout>
